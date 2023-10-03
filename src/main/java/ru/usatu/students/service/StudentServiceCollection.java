@@ -9,7 +9,7 @@ import java.util.SplittableRandom;
 import java.util.stream.Collectors;
 
 @Service
-public class StudentServiceCollection {
+public class StudentServiceCollection implements StudentService{
 
     private List<Student> students = new ArrayList<>();
 
@@ -22,7 +22,7 @@ public class StudentServiceCollection {
 
     public List<Student> getStudents(){return students;}
 
-    public Student getStudents(int id){
+    public Student getStudent(int id){
         return students.stream().filter(student -> student.getId() == id).findFirst()
                 .orElse(new Student());
     }
