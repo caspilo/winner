@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="yes"?>
+<students>
+    <student>
+        <id>1</id>
+        <name>Усов Иван Васильевич</name>
+    </student>
+    <student>
+        <id>2</id>
+        <name>Максимов Михаил Александрович</name>
+    </student>
+    <student>
+        <id>3</id>
+        <name>Хусаинов Арслан Крутович</name>
+    </student>
+    <student>
+        <id>4</id>
+        <name>Уткин Дмитрий Хованович</name>
+    </student>
+    <student>
+        <id>5</id>
+        <name>Путин Владимир Вадимович</name>
+    </student>
+</students>

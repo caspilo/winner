@@ -1,8 +1,14 @@
 package ru.usatu.students.model;
 
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Student {
-    private int id;
-    private String name;
+   @XmlElement
+   private int id;
+   @XmlElement
+   private String name;
 
     public Student(){
     }
